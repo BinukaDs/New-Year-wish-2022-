@@ -10,7 +10,8 @@ body {
     color: #02141a;
     text-transform: uppercase;
     letter-spacing: 3px; 
-    animation: animate 3s linear infinite;  
+    animation: animate 3s linear infinite;
+    padding: 1px;  
    
     
 }

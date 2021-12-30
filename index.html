@@ -17,9 +17,16 @@
     <title>Happy New Year 2022!</title>
   </head>
   <body>
-    <h1 class="wish">
+    <h1 class="wish" data-tilt>
       Happy New Year <br />
       2022!
     </h1>
+
+    <script type="text/javascript" src="Assets/Js/vanilla-tilt.js"></script>
+
+    <script>VanillaTilt.init(document.querySelector(".wish"), {
+      max: 25,
+      speed: 400
+    });</script>
   </body>
 </html>
